@@ -13,7 +13,7 @@ MPD dataset - 1000 artificial sentences that could be found inside a longer seve
 </br></br>
 Full results of benchmarsk computed for the paper (in preparation).
 Example plot summarizing our benchmark:
-<img src="https://github.com/krzysztoffiok/MPD-dataset/blob/master/full%20article%20results/images/MPD_3.png" width=640 height=512>
+<img src="https://github.com/krzysztoffiok/MPD-dataset/blob/master/full%20article%20results/images/MPD_3.png" width=640 height=1024>
 </br></br>
 Full statistical information regarding significance of differences in analyzed measures.
 </br></br>
