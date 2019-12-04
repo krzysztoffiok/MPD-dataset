@@ -18,3 +18,5 @@ Example plot summarizing our benchmark:
 Full statistical information regarding significance of differences in analyzed measures.
 </br></br>
 If you intend to use the provided dataset please cite our paper.
+
+License: we publish our MPD dataset with MIT license.
