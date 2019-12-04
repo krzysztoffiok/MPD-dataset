@@ -1,0 +1,12 @@
+MCC scores, NORMALITY:
+              W      pval  normal
+False  0.904638  0.246153    True
+True   0.952587  0.699151    True
+
+ ANOVA:
+                 sum_sq    df          F    PR(>F)
+C(treatments)  0.001445   1.0  45.442558  0.000003
+Residual       0.000572  18.0        NaN       NaN
+
+ Wilcoxon:
+WilcoxonResult(statistic=1.0, pvalue=0.0069104298078147995)
