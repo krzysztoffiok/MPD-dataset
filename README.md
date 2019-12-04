@@ -10,8 +10,9 @@ Orlando, FL</br>
 
 This repository contains:</br>
 MPD dataset - 1000 artificial sentences that could be found inside a longer several-sentence opinions after a meeting. The sentences are labelled. It is often possible to argue regarding the labels as the sentences can be understood differently depending on the context of the whole opinion they could be placed in. This fact makes the MPD dataset challenging for NLP models and enables distinguishing of models that are and are not context aware.
-</br>
+</br></br>
 Full results of benchmarsk computed for the paper (in preparation).
+</br></br>
 Full statistical information regarding significance of differences in analyzed measures.
-</br>
+</br></br>
 If you intend to use the provided dataset please cite our paper.
