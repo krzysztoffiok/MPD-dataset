@@ -2,7 +2,7 @@
 Meetings preliminary dataset (MPD) for sentence classification created for paper (in preparation): </br>
 
 Comparing the quality and speed of sentence classification with modern language models </br>
-Krzysztof Fiok*, Waldemar Karwowski, Edgar Gutierrez-Franco, and Mohammad Reza Davahli </br>
+Krzysztof Fiok, Waldemar Karwowski, Edgar Gutierrez-Franco, and Mohammad Reza Davahli </br>
 
 Department of Industrial Engineering and Management Systems</br>
 University of Central Florida</br>
