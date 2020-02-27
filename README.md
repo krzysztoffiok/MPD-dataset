@@ -1,5 +1,5 @@
 # MPD-dataset
-Meetings preliminary dataset (MPD) for sentence classification created for paper (in preparation): </br>
+Meetings preliminary dataset (MPD) for sentence classification created for paper (in peer review): </br>
 
 Comparing the quality and speed of sentence classification with modern language models </br>
 Krzysztof Fiok, Waldemar Karwowski, Edgar Gutierrez-Franco, and Mohammad Reza Davahli </br>
