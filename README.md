@@ -15,10 +15,14 @@ This repository contains:</br>
 </br></br>
 - Full statistical information regarding significance of differences in analyzed measures.
 </br></br>
+- Code for the paper that enables splitting data as in paper, training models in various configurations and also creating variuos plots and statistical results.
+</br></br>
 
 Example plot summarizing our benchmark:
 <img src="https://github.com/krzysztoffiok/MPD-dataset/blob/master/full%20article%20results/images/MPD_3.png" width=1920 height=512>
 
 If you intend to use the provided dataset please cite our paper.
+
+If you have any questions regarding use of the provided code, please post an issue in this repository and describe your needs.
 
 License: we publish our MPD dataset with MIT license.
