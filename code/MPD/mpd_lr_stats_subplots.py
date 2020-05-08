@@ -202,7 +202,7 @@ if joint_plots:
         # hack to make 3-line labels
         xlabels = []
 
-        if analyzed_set == mpd_lm or analyzed_set == trec_lm:
+        if analyzed_set == mpd_lm:
             for numm, k in enumerate(df_temp.columns):
                 varr = 3
                 if numm % varr == 0:

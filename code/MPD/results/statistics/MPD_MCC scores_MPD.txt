@@ -1,19 +1,19 @@
 MCC scores, NORMALITY:
-                       W      pval  normal
-BPE             0.909677  0.278783    True
-Glove           0.976878  0.946298    True
-FastText        0.940865  0.562679    True
-FlairFast       0.969735  0.888373    True
-Flair           0.912338  0.297441    True
-Elmo            0.948016  0.645086    True
-Bert            0.973124  0.918206    True
-Bert_smix       0.882729  0.140233    True
-XLNet           0.927744  0.426072    True
-XLNet_smix      0.912396  0.297856    True
-Roberta         0.894332  0.189630    True
-Roberta_L       0.947669  0.641015    True
-Roberta_L_smix  0.923993  0.391465    True
-DistilBert      0.912610  0.299402    True
+                   W      pval  normal
+BPE         0.909677  0.278783    True
+Glove       0.976878  0.946298    True
+FastText    0.940865  0.562679    True
+Flair Fast  0.969735  0.888373    True
+Flair       0.912338  0.297441    True
+Elmo        0.948016  0.645086    True
+Bert        0.973124  0.918206    True
+BertS       0.882729  0.140233    True
+XLNet       0.927744  0.426072    True
+XLNetS      0.912396  0.297856    True
+Roberta     0.894332  0.189630    True
+RobertaL    0.947669  0.641015    True
+RobertaLS   0.923993  0.391465    True
+DistilBert  0.912610  0.299402    True
 
  ANOVA:
                  sum_sq     df          F        PR(>F)
@@ -21,99 +21,99 @@ C(treatments)  0.878468   13.0  38.003755  2.655386e-37
 Residual       0.224041  126.0        NaN           NaN
 
  HSD Tukey:
-        Multiple Comparison of Means - Tukey HSD, FWER=0.05         
-====================================================================
-    group1         group2     meandiff p-adj   lower   upper  reject
---------------------------------------------------------------------
-           BPE           Bert   0.1448  0.001  0.0803  0.2093   True
-           BPE      Bert_smix   0.2091  0.001  0.1446  0.2736   True
-           BPE     DistilBert   0.1917  0.001  0.1272  0.2562   True
-           BPE           Elmo    0.118  0.001  0.0535  0.1825   True
-           BPE       FastText   0.0826 0.0019  0.0181  0.1471   True
-           BPE          Flair   0.0811 0.0026  0.0166  0.1456   True
-           BPE      FlairFast   0.0078    0.9 -0.0567  0.0723  False
-           BPE          Glove   0.0151    0.9 -0.0494  0.0796  False
-           BPE        Roberta   0.1554  0.001  0.0909  0.2199   True
-           BPE      Roberta_L   0.2026  0.001  0.1381  0.2671   True
-           BPE Roberta_L_smix   0.2161  0.001  0.1516  0.2807   True
-           BPE          XLNet  -0.0103    0.9 -0.0748  0.0542  False
-           BPE     XLNet_smix    0.134  0.001  0.0695  0.1985   True
-          Bert      Bert_smix   0.0643 0.0515 -0.0002  0.1288  False
-          Bert     DistilBert   0.0469 0.4304 -0.0176  0.1114  False
-          Bert           Elmo  -0.0268    0.9 -0.0913  0.0377  False
-          Bert       FastText  -0.0622 0.0715 -0.1267  0.0023  False
-          Bert          Flair  -0.0637 0.0569 -0.1282  0.0008  False
-          Bert      FlairFast   -0.137  0.001 -0.2015 -0.0725   True
-          Bert          Glove  -0.1297  0.001 -0.1942 -0.0652   True
-          Bert        Roberta   0.0106    0.9 -0.0539  0.0751  False
-          Bert      Roberta_L   0.0578  0.129 -0.0067  0.1223  False
-          Bert Roberta_L_smix   0.0714 0.0162  0.0069  0.1359   True
-          Bert          XLNet  -0.1551  0.001 -0.2196 -0.0906   True
-          Bert     XLNet_smix  -0.0108    0.9 -0.0753  0.0537  False
-     Bert_smix     DistilBert  -0.0174    0.9 -0.0819  0.0471  False
-     Bert_smix           Elmo  -0.0911  0.001 -0.1556 -0.0266   True
-     Bert_smix       FastText  -0.1265  0.001  -0.191  -0.062   True
-     Bert_smix          Flair   -0.128  0.001 -0.1925 -0.0635   True
-     Bert_smix      FlairFast  -0.2013  0.001 -0.2658 -0.1368   True
-     Bert_smix          Glove   -0.194  0.001 -0.2585 -0.1295   True
-     Bert_smix        Roberta  -0.0537 0.2148 -0.1182  0.0108  False
-     Bert_smix      Roberta_L  -0.0065    0.9  -0.071   0.058  False
-     Bert_smix Roberta_L_smix    0.007    0.9 -0.0575  0.0715  False
-     Bert_smix          XLNet  -0.2194  0.001 -0.2839 -0.1549   True
-     Bert_smix     XLNet_smix  -0.0751 0.0083 -0.1396 -0.0106   True
-    DistilBert           Elmo  -0.0737 0.0107 -0.1382 -0.0092   True
-    DistilBert       FastText   -0.109  0.001 -0.1735 -0.0445   True
-    DistilBert          Flair  -0.1105  0.001 -0.1751  -0.046   True
-    DistilBert      FlairFast  -0.1839  0.001 -0.2484 -0.1194   True
-    DistilBert          Glove  -0.1765  0.001  -0.241  -0.112   True
-    DistilBert        Roberta  -0.0363 0.7829 -0.1008  0.0282  False
-    DistilBert      Roberta_L   0.0109    0.9 -0.0536  0.0754  False
-    DistilBert Roberta_L_smix   0.0245    0.9   -0.04   0.089  False
-    DistilBert          XLNet   -0.202  0.001 -0.2665 -0.1375   True
-    DistilBert     XLNet_smix  -0.0577 0.1318 -0.1222  0.0068  False
-          Elmo       FastText  -0.0354  0.814 -0.0999  0.0292  False
-          Elmo          Flair  -0.0369 0.7643 -0.1014  0.0276  False
-          Elmo      FlairFast  -0.1102  0.001 -0.1747 -0.0457   True
-          Elmo          Glove  -0.1028  0.001 -0.1673 -0.0383   True
-          Elmo        Roberta   0.0374 0.7468 -0.0271  0.1019  False
-          Elmo      Roberta_L   0.0846 0.0013  0.0201  0.1491   True
-          Elmo Roberta_L_smix   0.0982  0.001  0.0337  0.1627   True
-          Elmo          XLNet  -0.1283  0.001 -0.1928 -0.0638   True
-          Elmo     XLNet_smix    0.016    0.9 -0.0485  0.0805  False
-      FastText          Flair  -0.0015    0.9  -0.066   0.063  False
-      FastText      FlairFast  -0.0749 0.0086 -0.1394 -0.0104   True
-      FastText          Glove  -0.0675 0.0311  -0.132  -0.003   True
-      FastText        Roberta   0.0727 0.0127  0.0082  0.1372   True
-      FastText      Roberta_L     0.12  0.001  0.0555  0.1845   True
-      FastText Roberta_L_smix   0.1335  0.001   0.069   0.198   True
-      FastText          XLNet  -0.0929  0.001 -0.1574 -0.0284   True
-      FastText     XLNet_smix   0.0514 0.2785 -0.0131  0.1159  False
-         Flair      FlairFast  -0.0733 0.0114 -0.1378 -0.0088   True
-         Flair          Glove   -0.066 0.0397 -0.1305 -0.0015   True
-         Flair        Roberta   0.0743 0.0096  0.0098  0.1388   True
-         Flair      Roberta_L   0.1215  0.001   0.057   0.186   True
-         Flair Roberta_L_smix    0.135  0.001  0.0705  0.1995   True
-         Flair          XLNet  -0.0914  0.001 -0.1559 -0.0269   True
-         Flair     XLNet_smix   0.0529 0.2364 -0.0116  0.1174  False
-     FlairFast          Glove   0.0074    0.9 -0.0571  0.0719  False
-     FlairFast        Roberta   0.1476  0.001  0.0831  0.2121   True
-     FlairFast      Roberta_L   0.1948  0.001  0.1303  0.2593   True
-     FlairFast Roberta_L_smix   0.2084  0.001  0.1439  0.2729   True
-     FlairFast          XLNet  -0.0181    0.9 -0.0826  0.0464  False
-     FlairFast     XLNet_smix   0.1262  0.001  0.0617  0.1907   True
-         Glove        Roberta   0.1402  0.001  0.0757  0.2047   True
-         Glove      Roberta_L   0.1875  0.001   0.123   0.252   True
-         Glove Roberta_L_smix    0.201  0.001  0.1365  0.2655   True
-         Glove          XLNet  -0.0254    0.9 -0.0899  0.0391  False
-         Glove     XLNet_smix   0.1189  0.001  0.0544  0.1834   True
-       Roberta      Roberta_L   0.0472 0.4172 -0.0173  0.1117  False
-       Roberta Roberta_L_smix   0.0608 0.0872 -0.0037  0.1253  False
-       Roberta          XLNet  -0.1657  0.001 -0.2302 -0.1012   True
-       Roberta     XLNet_smix  -0.0214    0.9 -0.0859  0.0431  False
-     Roberta_L Roberta_L_smix   0.0135    0.9  -0.051   0.078  False
-     Roberta_L          XLNet  -0.2129  0.001 -0.2774 -0.1484   True
-     Roberta_L     XLNet_smix  -0.0686 0.0258 -0.1331 -0.0041   True
-Roberta_L_smix          XLNet  -0.2265  0.001  -0.291  -0.162   True
-Roberta_L_smix     XLNet_smix  -0.0822 0.0021 -0.1467 -0.0177   True
-         XLNet     XLNet_smix   0.1443  0.001  0.0798  0.2088   True
---------------------------------------------------------------------
+    Multiple Comparison of Means - Tukey HSD, FWER=0.05     
+============================================================
+  group1     group2   meandiff p-adj   lower   upper  reject
+------------------------------------------------------------
+       BPE       Bert   0.1448  0.001  0.0803  0.2093   True
+       BPE      BertS   0.2091  0.001  0.1446  0.2736   True
+       BPE DistilBert   0.1917  0.001  0.1272  0.2562   True
+       BPE       Elmo    0.118  0.001  0.0535  0.1825   True
+       BPE   FastText   0.0826 0.0019  0.0181  0.1471   True
+       BPE      Flair   0.0811 0.0026  0.0166  0.1456   True
+       BPE Flair Fast   0.0078    0.9 -0.0567  0.0723  False
+       BPE      Glove   0.0151    0.9 -0.0494  0.0796  False
+       BPE    Roberta   0.1554  0.001  0.0909  0.2199   True
+       BPE   RobertaL   0.2026  0.001  0.1381  0.2671   True
+       BPE  RobertaLS   0.2161  0.001  0.1516  0.2807   True
+       BPE      XLNet  -0.0103    0.9 -0.0748  0.0542  False
+       BPE     XLNetS    0.134  0.001  0.0695  0.1985   True
+      Bert      BertS   0.0643 0.0515 -0.0002  0.1288  False
+      Bert DistilBert   0.0469 0.4304 -0.0176  0.1114  False
+      Bert       Elmo  -0.0268    0.9 -0.0913  0.0377  False
+      Bert   FastText  -0.0622 0.0715 -0.1267  0.0023  False
+      Bert      Flair  -0.0637 0.0569 -0.1282  0.0008  False
+      Bert Flair Fast   -0.137  0.001 -0.2015 -0.0725   True
+      Bert      Glove  -0.1297  0.001 -0.1942 -0.0652   True
+      Bert    Roberta   0.0106    0.9 -0.0539  0.0751  False
+      Bert   RobertaL   0.0578  0.129 -0.0067  0.1223  False
+      Bert  RobertaLS   0.0714 0.0162  0.0069  0.1359   True
+      Bert      XLNet  -0.1551  0.001 -0.2196 -0.0906   True
+      Bert     XLNetS  -0.0108    0.9 -0.0753  0.0537  False
+     BertS DistilBert  -0.0174    0.9 -0.0819  0.0471  False
+     BertS       Elmo  -0.0911  0.001 -0.1556 -0.0266   True
+     BertS   FastText  -0.1265  0.001  -0.191  -0.062   True
+     BertS      Flair   -0.128  0.001 -0.1925 -0.0635   True
+     BertS Flair Fast  -0.2013  0.001 -0.2658 -0.1368   True
+     BertS      Glove   -0.194  0.001 -0.2585 -0.1295   True
+     BertS    Roberta  -0.0537 0.2148 -0.1182  0.0108  False
+     BertS   RobertaL  -0.0065    0.9  -0.071   0.058  False
+     BertS  RobertaLS    0.007    0.9 -0.0575  0.0715  False
+     BertS      XLNet  -0.2194  0.001 -0.2839 -0.1549   True
+     BertS     XLNetS  -0.0751 0.0083 -0.1396 -0.0106   True
+DistilBert       Elmo  -0.0737 0.0107 -0.1382 -0.0092   True
+DistilBert   FastText   -0.109  0.001 -0.1735 -0.0445   True
+DistilBert      Flair  -0.1105  0.001 -0.1751  -0.046   True
+DistilBert Flair Fast  -0.1839  0.001 -0.2484 -0.1194   True
+DistilBert      Glove  -0.1765  0.001  -0.241  -0.112   True
+DistilBert    Roberta  -0.0363 0.7829 -0.1008  0.0282  False
+DistilBert   RobertaL   0.0109    0.9 -0.0536  0.0754  False
+DistilBert  RobertaLS   0.0245    0.9   -0.04   0.089  False
+DistilBert      XLNet   -0.202  0.001 -0.2665 -0.1375   True
+DistilBert     XLNetS  -0.0577 0.1318 -0.1222  0.0068  False
+      Elmo   FastText  -0.0354  0.814 -0.0999  0.0292  False
+      Elmo      Flair  -0.0369 0.7643 -0.1014  0.0276  False
+      Elmo Flair Fast  -0.1102  0.001 -0.1747 -0.0457   True
+      Elmo      Glove  -0.1028  0.001 -0.1673 -0.0383   True
+      Elmo    Roberta   0.0374 0.7468 -0.0271  0.1019  False
+      Elmo   RobertaL   0.0846 0.0013  0.0201  0.1491   True
+      Elmo  RobertaLS   0.0982  0.001  0.0337  0.1627   True
+      Elmo      XLNet  -0.1283  0.001 -0.1928 -0.0638   True
+      Elmo     XLNetS    0.016    0.9 -0.0485  0.0805  False
+  FastText      Flair  -0.0015    0.9  -0.066   0.063  False
+  FastText Flair Fast  -0.0749 0.0086 -0.1394 -0.0104   True
+  FastText      Glove  -0.0675 0.0311  -0.132  -0.003   True
+  FastText    Roberta   0.0727 0.0127  0.0082  0.1372   True
+  FastText   RobertaL     0.12  0.001  0.0555  0.1845   True
+  FastText  RobertaLS   0.1335  0.001   0.069   0.198   True
+  FastText      XLNet  -0.0929  0.001 -0.1574 -0.0284   True
+  FastText     XLNetS   0.0514 0.2785 -0.0131  0.1159  False
+     Flair Flair Fast  -0.0733 0.0114 -0.1378 -0.0088   True
+     Flair      Glove   -0.066 0.0397 -0.1305 -0.0015   True
+     Flair    Roberta   0.0743 0.0096  0.0098  0.1388   True
+     Flair   RobertaL   0.1215  0.001   0.057   0.186   True
+     Flair  RobertaLS    0.135  0.001  0.0705  0.1995   True
+     Flair      XLNet  -0.0914  0.001 -0.1559 -0.0269   True
+     Flair     XLNetS   0.0529 0.2364 -0.0116  0.1174  False
+Flair Fast      Glove   0.0074    0.9 -0.0571  0.0719  False
+Flair Fast    Roberta   0.1476  0.001  0.0831  0.2121   True
+Flair Fast   RobertaL   0.1948  0.001  0.1303  0.2593   True
+Flair Fast  RobertaLS   0.2084  0.001  0.1439  0.2729   True
+Flair Fast      XLNet  -0.0181    0.9 -0.0826  0.0464  False
+Flair Fast     XLNetS   0.1262  0.001  0.0617  0.1907   True
+     Glove    Roberta   0.1402  0.001  0.0757  0.2047   True
+     Glove   RobertaL   0.1875  0.001   0.123   0.252   True
+     Glove  RobertaLS    0.201  0.001  0.1365  0.2655   True
+     Glove      XLNet  -0.0254    0.9 -0.0899  0.0391  False
+     Glove     XLNetS   0.1189  0.001  0.0544  0.1834   True
+   Roberta   RobertaL   0.0472 0.4172 -0.0173  0.1117  False
+   Roberta  RobertaLS   0.0608 0.0872 -0.0037  0.1253  False
+   Roberta      XLNet  -0.1657  0.001 -0.2302 -0.1012   True
+   Roberta     XLNetS  -0.0214    0.9 -0.0859  0.0431  False
+  RobertaL  RobertaLS   0.0135    0.9  -0.051   0.078  False
+  RobertaL      XLNet  -0.2129  0.001 -0.2774 -0.1484   True
+  RobertaL     XLNetS  -0.0686 0.0258 -0.1331 -0.0041   True
+ RobertaLS      XLNet  -0.2265  0.001  -0.291  -0.162   True
+ RobertaLS     XLNetS  -0.0822 0.0021 -0.1467 -0.0177   True
+     XLNet     XLNetS   0.1443  0.001  0.0798  0.2088   True
+------------------------------------------------------------
