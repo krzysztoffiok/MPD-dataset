@@ -1,0 +1,8 @@
+declare -a lista=('p5lr.1mlr.0001a.5' 'p10lr.1mlr.0001a.5' 'p15lr.1mlr.0001a.5' 'p20lr.1mlr.0001a.5'
+'p25lr.1mlr.0001a.5' 'p20lr.1mlr.001a.4' 'p20lr.2mlr.01a.5'
+'p5lr.2mlr.008a.5' 'p10lr.05mlr.001a.5' 'p15lr.1mlr.001a.5' 'p10lr.3mlr.01a.3'
+'p25lr.15mlr.001a.5' 'p20lr.1mlr.002a.5')
+
+for i in "${lista[@]}"; do python3 model_train_mpd_learning_parameters.py --test_run="$i" --k_folds=10;
+
+done
