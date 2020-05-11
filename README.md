@@ -25,4 +25,6 @@ If you intend to use the provided dataset please cite our paper.
 
 If you have any questions regarding use of the provided code, please post an issue in this repository and describe your needs.
 
+This research was carried out with Flair 0.44.
+
 License: we publish our MPD dataset with MIT license.
