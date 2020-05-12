@@ -1,0 +1,8 @@
+declare -a models=('Glove' 'FastText' 'BPE' 'FlairFast' 'FlairNews' 'ElmoOriginal' 'Bert' 'BertLS'
+                      'RoBERTa' 'RoBERTaL' 'RoBERTaLS' 'XLNet' 'XLNetS' 'DistilBert')
+declare -a datasets=('MPD' 'TREC6')
+
+for j in "${datasets[@]}"; do for i in "${models[@]}"; do python3 model_train.py --model="$i" --dataset="$j";
+
+done
+done
