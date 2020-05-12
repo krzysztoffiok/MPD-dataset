@@ -66,7 +66,7 @@ results_path = "./results/{}/{}".format(dataset, model_type)
 # read the data sentences
 # choose the subset for analysis
 if subset == 'test':
-    data = pd.read_excel("./data/{}/test/test.xlsx".format(dataset))
+    data = pd.read_excel(f"./data/{dataset}/test/test.xlsx")
 
 data = data[['subject_category', 'sentence']]
 print('Data file to be analyzed loaded\n')
