@@ -21,7 +21,7 @@ This repository contains:</br>
 Example plot summarizing our benchmark:
 <img src="https://github.com/krzysztoffiok/MPD-dataset/blob/master/full%20article%20results/images/MPD_3.png" width=1920 height=512>
 
-If you intend to use the provided dataset please cite our paper.
+If you intend to use the provided dataset or code please cite our paper.
 
 If you have any questions regarding use of the provided code, please post an issue in this repository and describe your needs.
 
