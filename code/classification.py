@@ -43,6 +43,7 @@ k_folds = args.k_folds
 
 # file and subset to analyse
 subset = args.subset
+dataset = args.dataset
 
 # group subject categories
 if dataset == "MPD":
