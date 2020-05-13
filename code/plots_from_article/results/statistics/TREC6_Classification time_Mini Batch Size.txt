@@ -1,0 +1,24 @@
+Classification time, NORMALITY:
+           W      pval  normal
+4   0.965577  0.847086    True
+8   0.981978  0.974866    True
+32  0.874940  0.114089    True
+64  0.961290  0.800477    True
+
+ ANOVA:
+                 sum_sq    df        F    PR(>F)
+C(treatments)  0.001305   3.0  1.91627  0.144383
+Residual       0.008170  36.0      NaN       NaN
+
+ HSD Tukey:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj   lower  upper  reject
+---------------------------------------------------
+    32      4   0.0096 0.4945 -0.0086 0.0277  False
+    32     64   0.0054 0.8373 -0.0127 0.0235  False
+    32      8   0.0156 0.1136 -0.0025 0.0337  False
+     4     64  -0.0042    0.9 -0.0223  0.014  False
+     4      8    0.006 0.7867 -0.0121 0.0242  False
+    64      8   0.0102 0.4416 -0.0079 0.0283  False
+---------------------------------------------------

@@ -1,0 +1,7 @@
+declare -a analyzed_set=('trec_lm' 'mpd_lm' 'trec_tests' 'mpd_tests' 'trec_mini_batch_size'
+            'trec_hidden_size' 'trec_shuffle' 'trec_shuffle')
+
+for i in "${analyzed_set[@]}"; do python3 stats_subplots.py --analyzed_set="$i";
+done
+
+
