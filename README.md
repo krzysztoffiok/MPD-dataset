@@ -1,7 +1,6 @@
-# MPD-dataset
-Meetings preliminary dataset (MPD) for sentence classification created for paper (in peer review): </br>
+This repository contains data and code for the paper:</br>
 
-Comparing the quality and speed of sentence classification with modern language models </br>
+Comparing the Quality and Speed of Sentence Classification with Modern Language Models </br>
 Krzysztof Fiok, Waldemar Karwowski, Edgar Gutierrez-Franco, and Mohammad Reza Davahli </br>
 
 Department of Industrial Engineering and Management Systems</br>
@@ -28,3 +27,6 @@ If you have any questions regarding use of the provided code, please post an iss
 This research was carried out with Flair 0.44.
 
 License: we publish our MPD dataset with MIT license.
+
+Citation:
+Please cite our research as: Fiok, K., Karwowski, W., Gutierrez, E., & Reza-Davahli, M. (2020). Comparing the Quality and Speed of Sentence Classification with Modern Language Models. Applied Sciences, 10(10), 3386.
