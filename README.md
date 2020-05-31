@@ -1,6 +1,7 @@
 This repository contains data and code for the paper:</br>
 
-Comparing the Quality and Speed of Sentence Classification with Modern Language Models </br>
+<strong>Comparing the Quality and Speed of Sentence Classification with Modern Language Models </br></strong>
+
 Krzysztof Fiok, Waldemar Karwowski, Edgar Gutierrez-Franco, and Mohammad Reza Davahli </br>
 
 Department of Industrial Engineering and Management Systems</br>
@@ -29,4 +30,5 @@ This research was carried out with Flair 0.44.
 License: we publish our MPD dataset with MIT license.
 
 Citation:
-Please cite our research as: Fiok, K., Karwowski, W., Gutierrez, E., & Reza-Davahli, M. (2020). Comparing the Quality and Speed of Sentence Classification with Modern Language Models. Applied Sciences, 10(10), 3386.
+Please cite our research as: </br>
+Fiok, K., Karwowski, W., Gutierrez, E., & Reza-Davahli, M. (2020). Comparing the Quality and Speed of Sentence Classification with Modern Language Models. Applied Sciences, 10(10), 3386.
