@@ -32,3 +32,6 @@ License: we publish our MPD dataset with MIT license.
 Citation:
 Please cite our research as: </br>
 Fiok, K., Karwowski, W., Gutierrez, E., & Reza-Davahli, M. (2020). Comparing the Quality and Speed of Sentence Classification with Modern Language Models. Applied Sciences, 10(10), 3386.
+
+## Acknowledgment
+This research was carried out as part of the N000141812559 ONR research grant.
